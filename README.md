@@ -20,6 +20,14 @@ Functionality
     Lemmatization: Reducing words to their base forms.
     Stopwords Removal: Eliminating common words that do not contribute to classification.
 
+## Data Augmentation Using SMOTE
+
+In the context of text classification, data augmentation refers to techniques used to increase the diversity and size of the dataset by generating new synthetic data points. One common challenge in text classification is dealing with class imbalance, where one class may have significantly fewer samples than others. Synthetic Minority Over-sampling Technique (SMOTE) is a popular method for addressing this issue.
+
+## What is SMOTE?
+
+SMOTE is an oversampling technique specifically designed to deal with imbalanced datasets. It works by creating synthetic samples of the minority class by interpolating new instances between existing minority class samples. This helps to balance the class distribution and improve the performance of machine learning models, particularly in scenarios where one class is underrepresented.
+
 ## Machine Learning Models
 
     Decision Tree Classifier: Trained with SMOTE to handle class imbalance and tuned using Bayesian optimization.
